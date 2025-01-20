@@ -6,6 +6,8 @@ import "./assets/styles/global.css"; // 전역 스타일 import (선택 사항)
 const root = ReactDOM.createRoot(document.getElementById("root")); // HTML의 root 엘리먼트
 root.render(
   <React.StrictMode>
-    <App />
+    <App style={{
+      height:"100%"
+    }} />
   </React.StrictMode>
 );

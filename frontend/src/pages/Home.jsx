@@ -1,6 +1,6 @@
 
 import React from "react";
 function Home(){
-    return <>hi</>
+    return <>Home</>
 }
 export default Home;
